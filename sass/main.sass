@@ -1,0 +1,26 @@
+body
+  margin: 0
+  padding: 0
+  .box-container
+    height: 100vh
+    background: skyblue
+    display: flex
+    justify-content: center
+    align-items: center
+    .box-a
+      margin: 10px
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 300px
+      height: 300px
+      background: tomato
+      text-align: center
+      h1
+        color: yellow
+        font-size: 80px
+
+    .box-b
+      @extend .box-a
+      background: limegreen
+      border: 1px solid white
